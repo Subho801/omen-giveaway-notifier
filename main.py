@@ -215,6 +215,8 @@ def main():
             "seen": sorted(seen)
         })
 
+        log(f"Saved history: {sorted(seen)}")
+
         if not found_new:
             log("No new giveaway.")
 
