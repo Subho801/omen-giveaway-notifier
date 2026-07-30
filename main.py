@@ -127,10 +127,6 @@ def get_giveaways():
 
 def send_webhook(data):
 
-    expires = datetime.utcfromtimestamp(
-        data["expire"]
-    ).strftime("%B %d, %Y %H:%M UTC")
-
     
 
     embed = {
