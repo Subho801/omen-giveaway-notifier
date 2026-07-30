@@ -187,49 +187,46 @@ def send_webhook(data):
 
 def main():
 
-    log("HP OMEN Notifier Started")
+    log("HP OMEN Giveaway Notifier Started")
 
-    while True:
+    try:
 
-        try:
+        giveaways = get_giveaways()
 
-            giveaways = get_giveaways()
+        if not giveaways:
+            log("No giveaway found.")
+            return
 
-            if not giveaways:
-                log("No giveaway found.")
-            else:
-                posted = load_posted()
-                seen = set(posted.get("seen", []))
+        posted = load_posted()
+        seen = set(posted.get("seen", []))
 
-                found_new = False
+        found_new = False
 
-                for giveaway in giveaways:
+        for giveaway in giveaways:
 
-                    if giveaway["codename"] in seen:
-                        continue
+            if giveaway["codename"] in seen:
+                continue
 
-                    log(f"New giveaway detected: {giveaway['game']}")
+            log(f"New giveaway detected: {giveaway['game']}")
 
-                    send_webhook(giveaway)
+            send_webhook(giveaway)
 
-                    seen.add(giveaway["codename"])
+            seen.add(giveaway["codename"])
 
-                    save_posted({
-                        "seen": sorted(seen)
-                    })
+            found_new = True
 
-                    found_new = True
+        save_posted({
+            "seen": sorted(seen)
+        })
 
-                if not found_new:
-                    log("No new giveaway.")
+        if not found_new:
+            log("No new giveaway.")
 
-        except requests.exceptions.RequestException as e:
-            log(f"Network/API Error: {e}")
+    except requests.exceptions.RequestException as e:
+        log(f"Network/API Error: {e}")
 
-        except Exception as e:
-            log(f"Unexpected Error: {e}")
-
-        time.sleep(CHECK_INTERVAL)
+    except Exception as e:
+        log(f"Unexpected Error: {e}")
 
 
 if __name__ == "__main__":
