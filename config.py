@@ -1,7 +1,5 @@
-WEBHOOK_URL = "https://discord.com/api/webhooks/1506145708695355492/NOFJ9vLhs8GCFC19xwlokPIq7gZsPzXQVorHZGDRM9xmrPNzih_SkqZaOR7DyaqrYGcc"
+import os
 
-# Discord role ID (numbers only)
-ROLE_ID = "1532321792784470066"
-
-# Check interval (seconds)
-CHECK_INTERVAL = 60
+WEBHOOK_URL = os.getenv("WEBHOOK_URL")
+ROLE_ID = os.getenv("ROLE_ID", "")
+CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", "300"))
