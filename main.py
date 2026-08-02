@@ -230,11 +230,6 @@ def main():
             "seen": sorted(seen)
         })
 
-        with open("omen.json", "w", encoding="utf-8") as f:
-            json.dump(giveaways, f, indent=2, ensure_ascii=False)
-
-        log(f"Saved omen.json ({len(giveaways)} giveaways)")
-
         log(f"Saved history: {sorted(seen)}")
 
         if not found_new:
