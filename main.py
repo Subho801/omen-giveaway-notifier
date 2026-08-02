@@ -64,16 +64,17 @@ def save_posted(data):
         json.dump(data, f, indent=4)
 
 def save_website_json(giveaways):
-    with open("omen.json", "w", encoding="utf-8") as f:
-        json.dump(
-            {
-                "updated": int(time.time()),
-                "count": len(giveaways),
-                "items": giveaways,
-            },
-            f,
-            indent=2,
-        )
+   with open("omen.json", "w", encoding="utf-8") as f:
+    json.dump(
+        {
+            "updated": int(time.time()),
+            "count": len(giveaways),
+            "items": giveaways,
+        },
+        f,
+        indent=2,
+        ensure_ascii=False,
+    )
 
 def log(message):
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {message}")
