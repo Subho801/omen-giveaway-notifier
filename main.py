@@ -63,6 +63,18 @@ def save_posted(data):
     with open(POSTED_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
 
+def save_website_json(giveaways):
+    with open("omen.json", "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "updated": int(time.time()),
+                "count": len(giveaways),
+                "items": giveaways,
+            },
+            f,
+            indent=2,
+        )
+
 def log(message):
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {message}")
 
@@ -188,6 +200,8 @@ def main():
     try:
 
         giveaways = get_giveaways()
+
+        save_website_json(giveaways)
 
         if not giveaways:
             log("No giveaway found.")
