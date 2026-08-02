@@ -1,11 +1,15 @@
-[
-  {
-    "codename": "sweepstakes-halo-ce-20260713",
-    "game": "Halo: Campaign Evolved",
-    "title": "WIN A FREE GAME",
-    "description": "Experience the beginning of the legend, rebuilt for the modern era. Enter now to win a FREE copy of Halo: Campaign Evolved!",
-    "button": "https://sweepwidget.com/c/ogh-halo-ce",
-    "image": "https://content.hpgamestream.com/homepageContent/035b9228-5e22-453d-b425-5e1195365e06/resources/a4c5e52c-0114-4fce-9945-ef5d35d85fc5.png",
-    "expire": 1785859199
-  }
-]
+{
+  "updated": 1785647336,
+  "count": 1,
+  "items": [
+    {
+      "codename": "sweepstakes-halo-ce-20260713",
+      "game": "Halo: Campaign Evolved",
+      "title": "WIN A FREE GAME",
+      "description": "Experience the beginning of the legend, rebuilt for the modern era. Enter now to win a FREE copy of Halo: Campaign Evolved!",
+      "button": "https://sweepwidget.com/c/ogh-halo-ce",
+      "image": "https://content.hpgamestream.com/homepageContent/035b9228-5e22-453d-b425-5e1195365e06/resources/a4c5e52c-0114-4fce-9945-ef5d35d85fc5.png",
+      "expire": 1785859199
+    }
+  ]
+}
