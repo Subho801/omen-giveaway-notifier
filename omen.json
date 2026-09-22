@@ -1,5 +1,15 @@
 {
-  "updated": 1790082845,
-  "count": 0,
-  "items": []
+  "updated": 1790098931,
+  "count": 1,
+  "items": [
+    {
+      "codename": "sweepstakes-back-to-school-mystery-20260921",
+      "game": "NBA 2K27, Halo: Campaign Evolved, and other great titles",
+      "title": "WIN A FREE GAME",
+      "description": "Start school with a new game! Enter now for a chance to win a FREE copy of NBA 2K27, Halo: Campaign Evolved, and other great titles!",
+      "button": "https://sweepwidget.com/c/ogh-back-to-school",
+      "image": "https://content.hpgamestream.com/homepageContent/4044b9e5-0613-454b-8c6e-10d0d2a2721b/resources/a89855f9-6aa3-49c9-bc56-ef5fedb5cd9b.png",
+      "expire": 1790697599
+    }
+  ]
 }
