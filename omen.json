@@ -1,7 +1,16 @@
 {
-  "updated": 1792511248,
-  "count": 1,
+  "updated": 1792526113,
+  "count": 2,
   "items": [
+    {
+      "codename": "sweepstakes-dragons-dogma-20261019",
+      "game": "the base game, Dragon’s Dogma 2",
+      "title": "WIN A FREE GAME",
+      "description": "Dragon's Dogma 2: Dark Arisen enriches the classic fantasy world with unforgettable new tales. Enter now for a chance to win a FREE copy of the base game, Dragon’s Dogma 2!",
+      "button": "https://sweepwidget.com/c/ogh-dd2da",
+      "image": "https://content.hpgamestream.com/homepageContent/56db6cf8-ac4d-492a-bc85-1ab44efc5c3c/resources/d73bb066-9c43-45ae-8c74-bdaf708d2f7c.png",
+      "expire": 1793725199
+    },
     {
       "codename": "sweepstakes-norest-202610012",
       "game": "No Rest for the Wicked",
