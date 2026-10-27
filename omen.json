@@ -1,7 +1,16 @@
 {
-  "updated": 1793098178,
+  "updated": 1793117817,
   "count": 2,
   "items": [
+    {
+      "codename": "sweepstakes-crack-20261023",
+      "game": "CRACK",
+      "title": "WIN A FREE GAME",
+      "description": "What's inside the giant egg? That's for you and your friends to find out. Enter now for a chance to win a FREE copy of CRACK!",
+      "button": "https://sweepwidget.com/c/ogh-crack",
+      "image": "https://content.hpgamestream.com/homepageContent/39bfd19a-a097-4352-89aa-98be81b410f5/resources/dbbadfad-59d6-4cb2-9433-b0675af0598b.png",
+      "expire": 1794329999
+    },
     {
       "codename": "sweepstakes-dragons-dogma-20261019",
       "game": "the base game, Dragon’s Dogma 2",
@@ -10,15 +19,6 @@
       "button": "https://sweepwidget.com/c/ogh-dd2da",
       "image": "https://content.hpgamestream.com/homepageContent/56db6cf8-ac4d-492a-bc85-1ab44efc5c3c/resources/d73bb066-9c43-45ae-8c74-bdaf708d2f7c.png",
       "expire": 1793725199
-    },
-    {
-      "codename": "sweepstakes-norest-202610012",
-      "game": "No Rest for the Wicked",
-      "title": "WIN A FREE GAME",
-      "description": "Carve your path through a world torn apart. Enter now for a chance to win a FREE copy of No Rest for the Wicked!",
-      "button": "https://sweepwidget.com/c/ogh-nrftw",
-      "image": "https://content.hpgamestream.com/homepageContent/4acd56cc-7f92-49fe-9b56-d7ce4d3ae8f3/resources/475b5f2d-3c76-4fbd-ac25-c6fe90c37367.png",
-      "expire": 1793116799
     }
   ]
 }
