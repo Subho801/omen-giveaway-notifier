@@ -1,16 +1,7 @@
 {
-  "updated": 1793908292,
+  "updated": 1793926434,
   "count": 2,
   "items": [
-    {
-      "codename": "sweepstakes-among-the-trolls-20261102",
-      "game": "Among the Trolls, featuring new fixes and improvements",
-      "title": "WIN A FREE GAME",
-      "description": "Survive and thrive in the Finnish wilderness. Enter now for a chance to win a FREE copy of Among the Trolls, featuring new fixes and improvements!",
-      "button": "https://sweepwidget.com/c/ogh-among-the-trolls",
-      "image": "https://content.hpgamestream.com/homepageContent/edf75591-3743-4259-a9cd-40a9aaf816ea/resources/948fefc2-3a3a-43df-9db2-f93f23fee296.png",
-      "expire": 1794934799
-    },
     {
       "codename": "sweepstakes-crack-20261023",
       "game": "CRACK",
@@ -19,6 +10,15 @@
       "button": "https://sweepwidget.com/c/ogh-crack",
       "image": "https://content.hpgamestream.com/homepageContent/39bfd19a-a097-4352-89aa-98be81b410f5/resources/dbbadfad-59d6-4cb2-9433-b0675af0598b.png",
       "expire": 1794329999
+    },
+    {
+      "codename": "sweepstakes-among-the-trolls-20261102",
+      "game": "Among the Trolls, featuring new fixes and improvements",
+      "title": "WIN A FREE GAME",
+      "description": "Survive and thrive in the Finnish wilderness. Enter now for a chance to win a FREE copy of Among the Trolls, featuring new fixes and improvements!",
+      "button": "https://sweepwidget.com/c/ogh-among-the-trolls",
+      "image": "https://content.hpgamestream.com/homepageContent/edf75591-3743-4259-a9cd-40a9aaf816ea/resources/948fefc2-3a3a-43df-9db2-f93f23fee296.png",
+      "expire": 1794934799
     }
   ]
 }
